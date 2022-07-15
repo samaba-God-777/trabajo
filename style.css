@@ -1,0 +1,368 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+font-family: 'Edu SA Beginner', cursive;
+font-family: 'Montserrat', sans-serif;
+background-color: #121316;
+}
+.head {
+    width: 100%;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+   
+}
+.fa-solid {
+    position: absolute;
+    right: 50px;
+    font-size: 5em;
+    color: #fff;
+}
+.txt1 {
+    color: #fff;
+    border-radius: 20px;
+    font-size: 1.5em;
+}
+.txt1:hover {
+    color:#467dbd;
+}
+.title {
+   color: #fff;
+   font-size: 4em;
+    }
+.title:hover {
+    
+    color:#467dbd;
+
+    
+}
+.sub-bar {
+    width: 100%;
+    height: 100px;
+    background-color:#1b1b1d;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+   transition: 300ms ease;
+  
+}
+a{
+    color: #fff;
+    font-size: 2em;
+    text-decoration: none;
+    margin: 10px;
+}
+a:hover{
+    color:#467dbd;
+}
+
+.header {
+    background-image: url('/imagen/guitar.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    transition: 200ms ease-in-out;
+}
+h1 {
+    color:#000;
+    font-size: 3em;
+}
+.txt{
+    font-size: 2em;
+    color:#000;
+}
+.txt:hover{
+    color:#467dbd;
+}
+.text:hover{
+    color:#467dbd;
+}
+
+.text {
+    font-size: 4em;
+}
+
+.sidebar {
+   float: left;
+   position: absolute;
+    width: 250px;
+    background-color:rgb(12, 226, 12); filter:alpha(opacity=60); opacity:.3;
+    height: 100vh;
+    left: 0;
+    top: 300px;
+
+    display: flex;
+    flex-direction: column;
+}
+.boton {
+    margin-top: 100px;
+    width: 100%;
+    height: 50px;
+    font-size: 1em;
+
+}
+.boton:hover{
+    color: blue;
+}
+
+.main {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+    
+}
+.box{
+    width: 400px;
+    height: 400px;
+    background-color:#fff; filter:alpha(opacity=60); opacity:.6;
+    margin: 10px;
+    padding: 10px;
+   
+    border-radius: 20px 10px 10px 20px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+
+}
+.box1 {
+    width: 400px;
+    height: 400px;
+    background-color:#fff; filter:alpha(opacity=60); opacity:.6;
+    margin: 10px;
+    padding: 10px;
+   
+    border-radius: 20px 10px 10px 20px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+
+
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.box:hover{
+    border:5px #467dbd solid;
+    height: 400px;
+}
+.box1:hover {
+    border: 5px #467dbd solid;
+
+}
+
+.box1 .fa-brands{
+    font-size: 3em;
+    color:red;
+}
+.fa-brands {
+    font-size: 1.5em;
+    color: #000;
+    margin: 20px 10px 20px 10px;
+}
+.fa-brands:hover{
+    color: green;
+}
+img{
+    border-radius: 20%;
+    width: 100px;
+    height: 100px;
+}
+h2 {
+     color: rgb(12, 12, 12);
+     margin-bottom: 40px;
+}
+p{
+    color: rgb(4, 0, 0);
+    text-align: center;
+    padding: 5px;
+}
+/* estilos del pie*/
+.footer {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    color: white;
+   background-color:#121316 ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ 
+  
+   
+}
+.test {
+    color: #fff;
+}
+.footer .fa-brands {
+    color: #fff;
+}
+.footer .title1 {
+    font-size: 3em;
+    color: rgb(203, 195, 195);
+    box-shadow: rgba(0, 0, 0, 0.35) 0px -50px 36px -28px inset;
+    position: absolute;
+    top: 20px;
+}
+.footer .text2 {
+    font-size: 2em;
+    color: rgb(203, 195, 195);
+    position: absolute;
+    top: 70px;
+}
+.footer .text3 {
+    font-size: 2em;
+    color: rgb(203, 195, 195);
+    position: absolute;
+    top: 110px;
+}
+.card {
+    width: 200px;
+    height: 150px;
+    background-color: #467dbd;
+    padding: 10px;
+    margin: 10px;
+    box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+}
+.card:hover {
+    background-color: #467dbd;
+    color: aqua;
+}
+
+
+/* MODIFCACION DE LOS TAMANOS DE PANTALLA*/
+
+@media screen and (max-width:500px){
+    body{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+
+    }
+}
+@media screen and (max-width:500px){
+    main{
+        display: flex;
+        justify-content: center;
+
+}
+    
+}
+@media screen and (max-width: 500px) {
+    .title{
+        font-size: 40px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .txt1{
+        font-size: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+/*nav media query*/
+@media screen and (max-width:500px){
+    
+    .sub-bar {
+    display: flex;
+    flex-direction: column;
+    height: 300px;
+    justify-content: center;
+}
+}
+
+@media screen and (max-width:860px){
+    main{
+        display: flex;
+    
+        align-items: center;
+        flex-direction: column;
+    }
+    .box {
+       display: flex;
+       flex-direction: column;
+       height: 600px;
+        
+    }
+    .fa-brands{
+        font-size: 20px;
+    }
+    p{
+        font-size: 20px;
+    }
+    
+}
+@media  screen and(max-width:500px) {
+    .fa-solid {
+    top: 10px;
+    }
+}
+
+/*responsivo para el footer 780px*/
+@media screen and (max-width:780px){
+    .footer {
+        display: flex;
+        align-items: center;
+       
+        flex-wrap: wrap;
+    }
+   
+    
+   .footer .title1{
+    top: 20px;
+    font-size: 1.5em;
+    display: block;
+   }
+   .footer .text2{
+    top: 70px;
+    font-size: 1em;
+   }
+   .footer .text3{
+    top: 110px;
+    font-size: 1em;
+   } 
+}
+
+/* responsive para el footer 500px */
+@media screen and (max-width:500px){
+    .footer {
+        display: flex;
+        align-items: center;
+       
+    }
+    .footer .title1 {
+        width: 150px;
+    }
+   .footer .title1{
+    top: 20px;
+    font-size: 1.5em;
+   }
+   .footer .text2{
+    top: 70px;
+    font-size: 1em;
+   }
+   .footer .text3{
+    top: 110px;
+    font-size: 1em;
+   } 
+}
